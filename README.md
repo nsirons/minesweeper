@@ -47,9 +47,7 @@ Formally: $A x = b - f$ where $x \in \{0, 1\}$
 <td valign="left"><img src="./images/system_of_equations_example.png"/></td>
 <td valign="center"> 
 
-$$
-
-\begin{pmatrix}
+$$\begin{pmatrix}
 1 & 1 &0 & 0 & 0 & 0 \\
 1 & 1 & 1 & 1 & 1 & 0 \\
 0 & 0 & 0 & 1 & 1 & 1 \\
@@ -69,8 +67,7 @@ x_6
 3 \\
 2 \\
 1
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 
 </td>
 </tr>
@@ -81,9 +78,7 @@ Unfortunately, matrix $A$ most of the time is underconstrained, meaning there ar
 - Apply basic strategy first to reduce number of unknowns
 - Simplify the system of equations by converting it to Echelon form by Gaussian elimination. This would remove some of the equations that are redundant and would reduce number of unknowns. For example above, row echelon form would be:
 
-$$
-
-\begin{pmatrix}
+$$\begin{pmatrix}
 1 & 1 &0 & 0 & 0 & 0 \\
 0 & 0 & 1 & 1 & 1 & 0 \\
 0 & 0 & 0 & 1 & 1 & 1 \\
@@ -94,22 +89,18 @@ $$
 2 \\
 2 \\
 1
-\end{pmatrix}
-$$
+\end{pmatrix}$$
 
 and general solution is:
 
-$$
-
-X=\begin{pmatrix}
+$$X=\begin{pmatrix}
 1-x_2 \\
 x_2 \\
 x_6 \\
 1 \\
 1-x_6 \\
 x_6
-\end{pmatrix}
-$$
+\end{pmatrix}$$
 
 So  we only need to check for solutions where $x_2$ and $x_6$ are either 0 or 1, and other variables (x1, x3, x4, x5) are calculated from them.
 
