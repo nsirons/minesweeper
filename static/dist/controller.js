@@ -62,6 +62,7 @@ export class Controller {
     restartGame() {
         this.model.restartGame();
         this.view.resetGame();
+        console.debug(this.model.getState());
         this.view.render(this.model.getState());
     }
     showMenu() {

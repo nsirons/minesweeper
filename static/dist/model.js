@@ -75,6 +75,7 @@ export class Model {
         this.solver = null;
         this.probabilityBoard = null;
         this.startTimer();
+        console.log(this.getState());
     }
     showMenu() {
         this.board = new Board(0, 0, 0);

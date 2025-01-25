@@ -8,7 +8,7 @@
         "skipLibCheck": true,
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "outDir": "./js", // Output directory for compiled files
+        "outDir": "./static/dist", // Output directory for compiled files
         "rootDir": "./src", // Root directory of your source files
     }
 }

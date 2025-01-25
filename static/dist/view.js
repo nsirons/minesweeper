@@ -51,8 +51,11 @@ export class View {
         this.gameDiv.style.display = "none";
     }
     initGameRender(state) {
+        console.info('initGameRender');
+        console.info(state);
         this.menuDiv.style.display = "none";
         this.gameDiv.style.display = "block";
+        this.minesLeftDiv.innerHTML = state.boardState.minesLeft.toString();
         this.gameBoardDiv.replaceChildren();
         this.gameOutcomeDiv.style.display = "none";
         this.gameOutcomeDiv.innerHTML = "";
