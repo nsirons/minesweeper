@@ -47,7 +47,8 @@ Formally: $A x = b - f$ where $x \in \{0, 1\}$
 <td valign="left"><img src="./images/system_of_equations_example.png"/></td>
 <td valign="center"> 
 
-$$\begin{pmatrix}
+```math
+\begin{pmatrix}
 1 & 1 &0 & 0 & 0 & 0 \\
 1 & 1 & 1 & 1 & 1 & 0 \\
 0 & 0 & 0 & 1 & 1 & 1 \\
@@ -67,7 +68,8 @@ x_6
 3 \\
 2 \\
 1
-\end{bmatrix}$$
+\end{bmatrix}
+```
 
 </td>
 </tr>
